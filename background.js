@@ -1,10 +1,9 @@
 var startTime;
-var i = 10;
+var i = 5;
 var greenCounter;
 
 function startTimer() {
     changeIcon();
-    tttt;
 }
 
 var countDown = setInterval(function() {
@@ -13,9 +12,21 @@ var countDown = setInterval(function() {
       clearInterval(countDown);
       playMusic();
       chrome.browserAction.setBadgeText({text: ''})
+      notifyMe();
   }
   i--; 
 }, 1000);
+
+function notifyMe() {
+    chrome.notifications.create('some id for this notification', chromeOptions);
+}
+
+var chromeOptions = {
+    type: "basic",
+    title: "Test notificaiton.",
+    message: "A Message",
+    iconUrl: "test.png",
+};
 
 function changeIcon() {
     var timeleft = 5;
@@ -30,19 +41,11 @@ function changeIcon() {
     //     var audio = new Audio("sounds/boom.wav");
     //     audio.play();
     // }, 3000);
-    
 }
 
 function playMusic(){
     var audio = new Audio("sounds/boom.wav");
     audio.play();
 }
-
-
-// function big(){
-//     var measureT = setInterval(function(){
-//         console.log("hello 1 second");
-//     }, 1000);
-// }
 
 chrome.browserAction.onClicked.addListener(startTimer);
