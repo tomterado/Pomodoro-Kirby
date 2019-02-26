@@ -1,13 +1,13 @@
 # Pomodoro Kirby
-- Recreate the concept of the Pomodoro Timer (25 mins working block and 5 minute break)
-- Similar one here: 
+- Recreate the concept of the Pomodoro Timer (25 mins working block and 5 minute break
+- [More info on Pomodoro Technique here.](https://en.wikipedia.org/wiki/Pomodoro_Technique)
+- [Example Chrome Extension](https://chrome.google.com/webstore/detail/strict-workflow/cgmnfnmlficgeijcalkgnnkigkefkbhd?hl=en)
 - Have tested the 25minutes in a 5 second module and 5 minute break in a 3 second module
-- Creates
-- Timeline: ~~Ship in 5 days~~ Finished in 6 days.)
+- Timeline: ~~Ship in 5 days~~ Finished in 6 days.
 
 <br>
 
-###Coding Process:
+### Coding Process:
 
 1.Figure out the main components needed for Google Chrome extension.
 - Simple HTML / CSS / JS 
