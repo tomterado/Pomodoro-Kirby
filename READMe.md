@@ -46,3 +46,10 @@ Future to do:
 - Change the audio 
 - Record history and create a database to analyse one's productivity
 - Interact with FB Messenger bot 
+
+<br>
+To test this Extension:
+1. Clone this repo
+2. Go to Chrome --> More Tools --> Extensions
+3. Toggle Developer Mode
+4. Load unpacked with the cloned repo
