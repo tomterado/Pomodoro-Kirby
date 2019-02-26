@@ -4,7 +4,6 @@
 - [Example Chrome Extension](https://chrome.google.com/webstore/detail/strict-workflow/cgmnfnmlficgeijcalkgnnkigkefkbhd?hl=en)
 - Have tested the 25minutes in a 5 second module and 5 minute break in a 3 second module
 - Timeline: ~~Ship in 5 days~~ Finished in 6 days.
-
 <br>
 
 ### Coding Process:
