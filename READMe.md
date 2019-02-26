@@ -1,5 +1,5 @@
 # Pomodoro Kirby
-- Recreate the concept of the Pomodoro Timer (25 mins working block and 5 minute break
+- Recreate the concept of the Pomodoro Timer (25 mins working block and 5 minute break)
 - [More info on Pomodoro Technique here.](https://en.wikipedia.org/wiki/Pomodoro_Technique)
 - [Example Chrome Extension](https://chrome.google.com/webstore/detail/strict-workflow/cgmnfnmlficgeijcalkgnnkigkefkbhd?hl=en)
 - Have tested the 25minutes in a 5 second module and 5 minute break in a 3 second module
