@@ -1,34 +1,45 @@
-About the project:
+# Pomodoro Kirby
 - Recreate the concept of the Pomodoro Timer (25 mins working block and 5 minute break)
 - Similar one here: 
 - Have tested the 25minutes in a 5 second module and 5 minute break in a 3 second module
 - Creates
+- Timeline: ~~Ship in 5 days~~ Finished in 6 days.)
 
-Goal: Ship in 5 days (Finished in 6 days.)
+<br>
 
-Coding Process:
+###Coding Process:
 
-1. Figure out the main components needed for Google Chrome extension.
+1.Figure out the main components needed for Google Chrome extension.
 - Simple HTML / CSS / JS 
 
-2. Download the Manifest.json file.
+<br>
+
+2.Download the Manifest.json file.
 - This is where the information is read.
 - JSON file is a data format to store simple JS Data. Quite common in previous projects
 - Set up the template
 
-3. Link the Popup html Template.
+<br>
+
+3.Link the Popup html Template.
 - Did not need to use much of this.
 
-4. Test onClick function()
+<br>
+
+4.Test onClick function()
 - The tutorial here was a simple example that I could replicate()
 - Used the browser UpdateIcon button.
 - Have to turn it back to the other timer..?
 
-5. Structure for the two main functions startFirstTimer and startSecondTimer.
+<br>
+
+5.Structure for the two main functions startFirstTimer and startSecondTimer.
 - Change icon
 - Have a time mechanism
 - Change the strings for the timer and reset them once complete
 - Add audio 
+
+<br>
 
 Future to do:
 - Change the seconds to real minutes
