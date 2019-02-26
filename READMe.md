@@ -48,8 +48,11 @@ Future to do:
 - Interact with FB Messenger bot 
 
 <br>
-To test this Extension:
-- Clone this repo
-- Go to Chrome --> More Tools --> Extensions
-- Toggle Developer Mode
-- Load unpacked with the cloned repo
+
+To test the extension:
+- Change the seconds to real minutes
+- Change the audio 
+- Record history and create a database to analyse one's productivity
+- Interact with FB Messenger bot 
+
+<br>
