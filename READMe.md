@@ -49,7 +49,7 @@ Future to do:
 
 <br>
 To test this Extension:
-1.Clone this repo
-2.Go to Chrome --> More Tools --> Extensions
-3.Toggle Developer Mode
-4.Load unpacked with the cloned repo
+- Clone this repo
+- Go to Chrome --> More Tools --> Extensions
+- Toggle Developer Mode
+- Load unpacked with the cloned repo
